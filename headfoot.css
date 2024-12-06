@@ -1,0 +1,102 @@
+body{
+    background-color: #a6eef6a5;
+    margin: 0;
+    padding: 0;
+
+  }
+      .head {
+background-color: hwb(197 34% 9%);
+padding: 10px 20px; 
+}
+
+.cont {
+display: flex;
+align-items: center;
+margin: 0 10px;
+}
+
+#logo {
+flex-grow: 1;
+}
+
+#search {
+width: 70%; 
+padding: 8px; 
+border: 1px solid #ccc; 
+border-radius: 15px; 
+margin-left: 20px;
+margin-right: 100px;
+}
+
+#Message,
+#cart,
+#Profile {
+flex-grow: 1;
+text-align: center; 
+}
+.contain {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #8fd3f0; 
+padding: 10px 0;
+
+}
+
+.link {
+flex-grow: 1;
+text-align: center; 
+margin: 0 10px; 
+text-decoration: none;
+color: #130797; 
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link:hover {
+text-decoration: underline; 
+color: rgb(73, 25, 28);
+}
+
+
+footer {
+background-color: #c1d2f6;
+padding: 20px 0;
+
+}
+.site-identity {
+float: left;
+display: flex;
+}
+
+.site-identity h1 {
+font-size: 1.5em;
+margin: .7em 0 .3em 0;
+display: inline-block;
+}
+
+.site-identity img {
+max-width: 55px;
+float: left;
+margin: 0 10px 0 0;
+border-radius: 15px;
+
+}
+
+footer div {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.ftr {
+flex-grow: 1;
+text-align: center;
+margin: 0 10px; 
+padding: 10px;
+border: 1px solid #8cb3f5;
+border-radius: 5px;
+}
+
+main{
+height: 800px;
+}

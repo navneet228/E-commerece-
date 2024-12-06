@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      body{
+        background-color: #567cbe7a;
+        margin: 0;
+        padding: 0;
+
+      }
+          .head {
+  background-color: hwb(210 73% 4%);
+  padding: 10px 20px; 
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+#logo {
+  flex-grow: 1;
+}
+
+#search {
+  width: 70%; 
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 15px; 
+  margin-left: 20px;
+}
+
+#Message,
+#cart,
+#Profile {
+  flex-grow: 1;
+  text-align: center; 
+}
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9ebfa; 
+  padding: 10px 0;
+
+}
+
+.link {
+  flex-grow: 1;
+  text-align: center; 
+  margin: 0 10px; 
+  text-decoration: none;
+  color: #130797; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link:hover {
+  text-decoration: underline; 
+  color: rgb(73, 25, 28);
+}
+
+
+footer {
+  background-color: #c1d2f6;
+  padding: 20px 0;
+  
+}
+.site-identity {
+  float: left;
+  display: flex;
+}
+
+.site-identity h1 {
+  font-size: 1.5em;
+  margin: .7em 0 .3em 0;
+  display: inline-block;
+}
+
+.site-identity img {
+  max-width: 55px;
+  float: left;
+  margin: 0 10px 0 0;
+  border-radius: 15px;
+  
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ftr {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0 10px; 
+  padding: 10px;
+  border: 1px solid #8cb3f5;
+  border-radius: 5px;
+}
+
+main{
+    height: 700px;
+}
+
+.btn{
+    background-color: aqua;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.formprof{
+    display: flex;
+    width: 800px;
+    margin-left: 300px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="cont">
+              <div class="site-identity"> <img src="nk_labs_logo.jpeg" alt="" />
+                <h4 class="cont" style="flex-grow: 1" id="logo"></div>
+                  <h4 class="cont" style="flex-grow: 1"><input type="search" placeholder="Search anything" id="search" ></h4>
+            <h4 class="cont" style="flex-grow: 1" id="Message">Message</h4>
+            <div class="site-identity"><a href="cart.html"><img src="cart.png" alt="add cart" />
+              <h4 class="cont" style="flex-grow: 1" id="logo"></a></div>
+                <div class="site-identity"><a href="Profile.html"><img src="pr1.png" alt="add cart" />
+                    <h4 class="cont" style="flex-grow: 1" id="logo"></a>Profile</div></div> </header></div> </header>
+        <div class="contain">
+            <a href="home.html" class="link" style="flex-grow: 1">Home</a>
+            <a href="Women.html" class="link" style="flex-grow: 1">Women</a>
+           <a href="Men.html" class="link" style="flex-grow: 1">Men</a>  
+           <a href="Upload.html" class="link" style="flex-grow: 1">Upload</a>  </div>
+          <main>
+            <div class="formprof">
+            <div class="container rounded bg-white mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-3 border-right">
+                        <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="femaleicon.jpg">
+                            <span class="font-weight-bold">Navneet</span><span class="text-black-50">navkaur@yahoo.com.my</span><span> </span></div>
+                    </div>
+                    <div class="col-md-5 border-right">
+                        <div class="p-3 py-5">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="text-right">Profile Settings</h4></div>
+                                <label for="">Name:</label><br>
+                                <input type="email" class="form-control" placeholder="name" id="name">
+                                <label for="">Last Name :</label><br>
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Last name">
+                                <label for="">Email:</label><br>
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="">Contact:</label><br>
+                                <input type="number" class="form-control" id="floatingInput" placeholder="Phone number">
+                                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                                    <option value="1">User Type</option>
+                                    <option value="2">Seller</option>
+                                    <option value="3">Customer</option>
+                                  </select>
+                                <button type="submit" class="btn btn-warning" onclick="changes()">Save Changes</button>
+                            </div>    
+<div id="change" class="see"></div>
+          </main>
+          <footer>
+            <div  class="foot">
+            <p class="ftr"><strong>Information</strong> <br> Links <br>Wall of blogs<br> Q&A <br>Teams & Support <br> Policy </p> 
+            <div class="ftr">
+              <h2>Follow us:</h2>
+               <img class="mds" src="fb.jpg" style="width: 40px; height: 40px;  border-radius: 50px;  margin-bottom: 8px;" alt=""> <a href="https://www.facebook.com/"></a></a><br>
+                <img src="Insta.png" style="width: 40px; height: 40px;  border-radius: 50px; margin-bottom: 8px;" alt=""><a href="https://www.facebook.com/"></a></a><br>
+                <img src="gog.webp" style="width: 40px; height: 40px;  border-radius: 50px; margin-bottom: 8px;" alt=""><a href="https://www.facebook.com/"></a></a><br>
+            </div>  
+            <p class="ftr"><strong> Contact Us</strong> <br> 1490-214 Street St-Jhosph Laval, QUEBEC <br>G3V 3M1  Canada <br>
+                <br>+128-5524-658<br> navkaur@yahoo.com </p>
+        </div>
+          </footer>
+           <script>
+          function changes(){
+            const name =document.getElementById('name').value;
+
+            const check= `<strong>${name} Your Profile is Now Updated.</strong>`;
+            const update = document.getElementById('change');
+
+            update.innerHTML =check
+
+          }
+           </script>
+</body>
+</html>
